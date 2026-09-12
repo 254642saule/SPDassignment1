@@ -18,7 +18,6 @@ public abstract class AbstractBookBuilder<T extends AbstractBookBuilder<T>> impl
     }
 
     protected void applyDefaults() {
-        // No defaults by default; concrete builders override when needed.
     }
 
     @Override

@@ -8,7 +8,6 @@ public class Book {
     private int pageCount;
     private CoverType coverType;
 
-    // Fields that are only populated for rare/collector's editions
     private double estimatedValue;
     private int limitedEditionNumber;
 
